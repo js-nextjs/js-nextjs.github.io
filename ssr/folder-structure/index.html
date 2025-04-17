@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://js-nextjs.github.io/nextjs/routing/">
+        <link rel="canonical" href="https://js-nextjs.github.io/ssr/folder-structure/">
       
       
-        <link rel="prev" href="../folder-structure/">
+        <link rel="prev" href="../difference/">
       
       
-        <link rel="next" href="../api-routes/">
+        <link rel="next" href="../../typescript/intro/">
       
       
       <link rel="icon" href="../../assets/logo/next-js.ico">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Routing - Next.js Organization</title>
+        <title>Folder Structure - Next.js Organization</title>
       
     
     
@@ -83,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#routing-in-nextjs" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -118,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Routing
+              Folder Structure
             
           </span>
         </div>
@@ -259,13 +259,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../intro/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../nextjs/intro/" class="md-tabs__link">
           
   
   
@@ -281,11 +279,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../ssr/overview/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../overview/" class="md-tabs__link">
           
   
   
@@ -546,29 +546,24 @@
       
   
   
-    
   
   
-  
     
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
@@ -581,7 +576,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Next.js
@@ -595,7 +590,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../intro/" class="md-nav__link">
+      <a href="../../nextjs/intro/" class="md-nav__link">
         
   
   
@@ -618,7 +613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../folder-structure/" class="md-nav__link">
+      <a href="../../nextjs/folder-structure/" class="md-nav__link">
         
   
   
@@ -638,32 +633,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Routing
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../nextjs/routing/" class="md-nav__link">
         
   
   
@@ -674,71 +647,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#app-router-new-in-nextjs-13" class="md-nav__link">
-    <span class="md-ellipsis">
-      🗂 App Router (New in Next.js 13+)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#types-of-routing-in-nextjs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Types of Routing in Next.JS
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#router" class="md-nav__link">
-    <span class="md-ellipsis">
-      Router
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#summary-of-the-differences" class="md-nav__link">
-    <span class="md-ellipsis">
-      Summary of the Differences
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#which-one-should-you-use" class="md-nav__link">
-    <span class="md-ellipsis">
-      Which One Should You Use?
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -751,7 +659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../api-routes/" class="md-nav__link">
+      <a href="../../nextjs/api-routes/" class="md-nav__link">
         
   
   
@@ -774,7 +682,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../data-fetching/" class="md-nav__link">
+      <a href="../../nextjs/data-fetching/" class="md-nav__link">
         
   
   
@@ -797,7 +705,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../deployment/" class="md-nav__link">
+      <a href="../../nextjs/deployment/" class="md-nav__link">
         
   
   
@@ -820,7 +728,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../next-config/" class="md-nav__link">
+      <a href="../../nextjs/next-config/" class="md-nav__link">
         
   
   
@@ -884,7 +792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../theory/" class="md-nav__link">
+      <a href="../../nextjs/theory/" class="md-nav__link">
         
   
   
@@ -907,7 +815,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../theory/rendering-strategies/" class="md-nav__link">
+      <a href="../../nextjs/theory/rendering-strategies/" class="md-nav__link">
         
   
   
@@ -930,7 +838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../theory/web-vitals/" class="md-nav__link">
+      <a href="../../nextjs/theory/web-vitals/" class="md-nav__link">
         
   
   
@@ -965,24 +873,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   
@@ -995,7 +908,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             SSR
@@ -1009,7 +922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ssr/overview/" class="md-nav__link">
+      <a href="../overview/" class="md-nav__link">
         
   
   
@@ -1032,7 +945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ssr/difference/" class="md-nav__link">
+      <a href="../difference/" class="md-nav__link">
         
   
   
@@ -1052,10 +965,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../ssr/folder-structure/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1066,6 +988,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -2037,59 +1960,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#app-router-new-in-nextjs-13" class="md-nav__link">
-    <span class="md-ellipsis">
-      🗂 App Router (New in Next.js 13+)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#types-of-routing-in-nextjs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Types of Routing in Next.JS
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#router" class="md-nav__link">
-    <span class="md-ellipsis">
-      Router
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#summary-of-the-differences" class="md-nav__link">
-    <span class="md-ellipsis">
-      Summary of the Differences
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#which-one-should-you-use" class="md-nav__link">
-    <span class="md-ellipsis">
-      Which One Should You Use?
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -2104,135 +1974,67 @@
 
 
 
-<h1 id="routing-in-nextjs">🌐 Routing in Next.js</h1>
-<p>Next.js uses <strong>file-based routing</strong>, where the file structure inside the <code>pages/</code> or <code>app/</code> folder determines the routes.</p>
-<hr />
-<h2 id="app-router-new-in-nextjs-13">🗂 App Router (New in Next.js 13+)</h2>
-<p>In the <strong>App Router</strong>, routes are defined inside the <code>app/</code> folder.</p>
-<p>Example:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>app/
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── page.tsx        # Route: /
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>├── about/
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│   └── page.tsx    # Route: /about
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>└── dashboard/
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    └── page.tsx    # Route: /dashboard
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>pages/
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>├── index.js        # Route: /
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>├── about.js        # Route: /about
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>└── dashboard.js    # Route: /dashboard
+<h1 id="_1"></h1>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>/app
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  /page.tsx              ← RSC
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  /posts
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    /page.tsx            ← RSC
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    /PostList.tsx        ← RSC (reusable)
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>  /components
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    /PostCard.tsx        ← RSC (if no &#39;use client&#39;)
 </span></code></pre></div>
+<p>📁 <code>lib/api.ts</code></p>
+<div class="language-tsx highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">// lib/api.ts</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="k">export</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="nx">getPosts</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">res</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://jsonplaceholder.typicode.com/posts&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="c1">// optional: enable dynamic SSR</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="nx">cache</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;no-store&quot;</span><span class="p">,</span><span class="w"> </span><span class="c1">// or use &#39;force-cache&#39; or { next: { revalidate: 60 } } for ISR</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">  </span><span class="p">});</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="nx">res</span><span class="p">.</span><span class="nx">ok</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="k">throw</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="ne">Error</span><span class="p">(</span><span class="s2">&quot;Failed to fetch posts&quot;</span><span class="p">);</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">posts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="nx">posts</span><span class="p">;</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="p">}</span>
+</span></code></pre></div>
+<p>🧪 Example usage in a Server Component:</p>
+<div class="language-tsx highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1">// app/page.tsx</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">getPosts</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@/lib/api&quot;</span><span class="p">;</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="k">export</span><span class="w"> </span><span class="k">default</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="nx">HomePage</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">posts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">getPosts</span><span class="p">();</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">    </span><span class="p">&lt;</span><span class="nt">main</span><span class="w"> </span><span class="na">className</span><span class="o">=</span><span class="s">&quot;p-4&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">      </span><span class="p">&lt;</span><span class="nt">h1</span><span class="w"> </span><span class="na">className</span><span class="o">=</span><span class="s">&quot;text-xl font-bold mb-4&quot;</span><span class="p">&gt;</span><span class="nx">Latest</span><span class="w"> </span><span class="nx">Posts</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">      </span><span class="p">&lt;</span><span class="nt">ul</span><span class="w"> </span><span class="na">className</span><span class="o">=</span><span class="s">&quot;space-y-2&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">        </span><span class="p">{</span><span class="nx">posts</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span><span class="w"> </span><span class="mf">5</span><span class="p">).</span><span class="nx">map</span><span class="p">((</span><span class="nx">post</span><span class="o">:</span><span class="w"> </span><span class="kt">any</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">(</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">          </span><span class="p">&lt;</span><span class="nt">li</span><span class="w"> </span><span class="na">key</span><span class="o">=</span><span class="p">{</span><span class="nx">post</span><span class="p">.</span><span class="nx">id</span><span class="p">}</span><span class="w"> </span><span class="na">className</span><span class="o">=</span><span class="s">&quot;border p-3 rounded-md&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">            </span><span class="p">&lt;</span><span class="nt">h2</span><span class="w"> </span><span class="na">className</span><span class="o">=</span><span class="s">&quot;font-semibold&quot;</span><span class="p">&gt;{</span><span class="nx">post</span><span class="p">.</span><span class="nx">title</span><span class="p">}&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">            </span><span class="p">&lt;</span><span class="nt">p</span><span class="w"> </span><span class="na">className</span><span class="o">=</span><span class="s">&quot;text-sm text-gray-600&quot;</span><span class="p">&gt;{</span><span class="nx">post</span><span class="p">.</span><span class="nx">body</span><span class="p">}&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">          </span><span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">        </span><span class="p">))}</span>
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="w">      </span><span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="w">    </span><span class="p">&lt;/</span><span class="nt">main</span><span class="p">&gt;</span>
+</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="w">  </span><span class="p">);</span>
+</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="p">}</span>
+</span></code></pre></div>
+<p>This setup:</p>
+<ul>
+<li>Fetches data server-side using a React Server Component.</li>
+<li>Uses <code>cache: 'no-store'</code> to ensure it renders fresh data every time (SSR).</li>
+<li>Works in the <strong>App Router</strong> (Next.js 13+).</li>
+</ul>
+<p>Let me know if you want to add pagination, filtering, or convert this to client-side fetching instead.</p>
 <hr />
-<h2 id="types-of-routing-in-nextjs"><a href="https://www.tutorialspoint.com/nextjs/nextjs_routing.htm">Types of Routing in Next.JS</a></h2>
-<p>You will asked to choose type of routing for your Next.js project, while creating a new project. Following are routes used in Next.js</p>
-<ul>
-<li>Page Routing</li>
-<li>App Routing</li>
-</ul>
-<hr />
-<h2 id="router">Router</h2>
-<p>In Next.js, <a href="#">App Router</a> and <a href="#">Page Router</a> refer to two different routing systems used for handling navigation within your application. Each one has its own use case, and whether you need to use both depends on the version of Next.js you're working with and your specific project needs.</p>
-<p><strong>Page Router (Traditional Approach)</strong></p>
-<ul>
-<li>
-<p><mark>Used in Next.js 12 and earlier (before the App Router was introduced)</mark>.</p>
-</li>
-<li>
-<p>In this approach, routing is handled by creating files inside the pages directory. Each file automatically becomes a route in the app.</p>
-</li>
-<li>
-<p>Example:</p>
-<ul>
-<li><code>pages/index.js</code> → <code>/</code></li>
-<li><code>pages/about.js</code> → <code>/about</code></li>
-</ul>
-</li>
-</ul>
-<p>You don’t need to explicitly configure routing or map paths to components; Next.js does it automatically based on the file structure.</p>
-<p><strong>App Router (Introduced in Next.js 13)</strong></p>
-<ul>
-<li><mark>Introduced in Next.js 13</mark> as part of the new <mark>app directory</mark>.</li>
-<li>The App Router uses a new file system structure where routes are created inside the <code>app</code> directory.</li>
-<li>The new router is more flexible and provides a more structured way to organize your app, supporting <strong>layouts</strong>, <strong>templates</strong>, <strong>nested routes</strong>, <strong>error boundaries</strong>, and <strong>server-side data fetching</strong> in a more intuitive way.</li>
-<li>
-<p>Example:</p>
-<ul>
-<li><code>app/page.js</code> → <code>/</code></li>
-<li><code>app/about/page.js</code> → <code>/about</code></li>
-<li><code>app/products/[id]/page.js</code> → <code>/products/:id</code></li>
-</ul>
-</li>
-</ul>
-<p>The App Router offers additional features like <strong>server-side rendering</strong> for pages by default and the ability to create shared layouts and templates.</p>
-<details class="question" open="open">
-<summary>Do You Need Both?</summary>
-<ul>
-<li>
-<p><strong>No, you don’t need to use both</strong>. You can choose either the <strong>Page Router</strong> (using the <code>pages</code> directory) or the <strong>App Router</strong> (using the <code>app</code> directory).</p>
-</li>
-<li>
-<p><strong>Standard approach</strong> depends on the Next.js version you are using:</p>
-<ul>
-<li>
-<p>If you're using <mark>Next.js 13 or later</mark>, it's recommended to use the <strong>App Router</strong>, as it offers more features and better support for modern React paradigms like <strong>Server Components</strong>.</p>
-</li>
-<li>
-<p><strong>Page Router</strong> is still supported and works fine for simpler projects or for those who prefer the more traditional file-based routing approach.</p>
-</li>
-</ul>
-</li>
-</ul>
-</details>
-<h2 id="summary-of-the-differences">Summary of the Differences</h2>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th>Page Router (<code>pages/</code>)</th>
-<th>App Router (<code>app/</code>)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>File Location</td>
-<td><code>pages/</code></td>
-<td><code>app/</code></td>
-</tr>
-<tr>
-<td>Supported in</td>
-<td>Next.js 12 and below</td>
-<td>Next.js 13+</td>
-</tr>
-<tr>
-<td>Routing Type</td>
-<td>File-based routing</td>
-<td>File-based + dynamic routing, layouts, templates</td>
-</tr>
-<tr>
-<td>SSR Support</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Data Fetching</td>
-<td>Can be done via API routes</td>
-<td>Built-in support for SSR, async loading, etc.</td>
-</tr>
-<tr>
-<td>Layout Support</td>
-<td>Limited</td>
-<td>Full support for layouts, templates, etc.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="which-one-should-you-use">Which One Should You Use?</h2>
-<ul>
-<li>If you’re starting a new project with <strong>Next.js 13</strong> or later, <strong>App Router</strong> is generally the recommended approach.</li>
-<li>If you're working on an existing project with the <strong>Page Router</strong> or prefer its simplicity, you can stick with that.</li>
-</ul>
-<hr />
-<ul>
-<li><a href="https://www.tutorialspoint.com/nextjs/nextjs_routing.htm">Tutorial Point, Next.js - Routing</a></li>
-</ul>
+<div class="admonition question">
+<p class="admonition-title">and where to define the RSC component</p>
+</div>
+<p>Great question! In Next.js with the <mark>App Router</mark>, RSCs (React Server Components) <mark>are the default</mark> — so technically, you’re defining a Server Component <strong>every time you create a</strong> <code>.tsx</code> <strong>file in</strong> <code>/app/**</code> <strong>without</strong> <code>'use client'</code> .</p>
+<p>Let’s break it down:</p>
 
 
 
@@ -2268,7 +2070,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../folder-structure/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Folder Structure">
+          <a href="../difference/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Difference">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -2278,20 +2080,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Folder Structure
+                Difference
               </div>
             </div>
           </a>
         
         
           
-          <a href="../api-routes/" class="md-footer__link md-footer__link--next" aria-label="Next: API Routes">
+          <a href="../../typescript/intro/" class="md-footer__link md-footer__link--next" aria-label="Next: Intro">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                API Routes
+                Intro
               </div>
             </div>
             <div class="md-footer__button md-icon">
