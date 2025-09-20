@@ -18,15 +18,15 @@
       
       
       <link rel="icon" href="../../assets/logo/next-js.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
-        <title>Data Fetching - Next.js Organization</title>
+        <title>Data Fetching | Rendering Methods - Next.js Organization</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -56,15 +56,17 @@
     
     
    <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
-    html.glightbox-open { overflow: initial; height: 100%; }
-    .gslide-title { margin-top: 0px; user-select: text; }
-    .gslide-desc { color: #666; user-select: text; }
-    .gslide-image img { background: white; }
-    .gscrollbar-fixer { padding-right: 15px; }
-    .gdesc-inner { font-size: 0.75rem; }
-    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
-    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -118,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Data Fetching
+              Data Fetching | Rendering Methods
             
           </span>
         </div>
@@ -701,7 +703,7 @@
   
   
   <span class="md-ellipsis">
-    Data Fetching
+    Data Fetching | Rendering Methods
     
   </span>
   
@@ -714,7 +716,7 @@
   
   
   <span class="md-ellipsis">
-    Data Fetching
+    Data Fetching | Rendering Methods
     
   </span>
   
@@ -742,6 +744,102 @@
       📋 Example: Server-Side Rendering (SSR)
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-recap-rendering-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Quick Recap: Rendering Methods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧭 Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-about-nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚛️ What About Next.js?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#which-one-should-you-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Which One Should You Use?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-takeaway" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Final Takeaway
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#explanation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Explanation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Explanation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ssr-server-side-rendering-chef-cooks-in-the-kitchen" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧑‍🍳 SSR — Server-Side Rendering (Chef cooks in the kitchen)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#csr-client-side-rendering-diy-table-cooking" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧑‍🍳 CSR — Client-Side Rendering (DIY table cooking)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ssg-static-site-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      🥗 SSG (Static Site Generation)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isr-incremental-static-regeneration" class="md-nav__link">
+    <span class="md-ellipsis">
+      🍱 ISR (Incremental Static Regeneration)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2016,6 +2114,102 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#quick-recap-rendering-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Quick Recap: Rendering Methods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧭 Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-about-nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚛️ What About Next.js?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#which-one-should-you-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Which One Should You Use?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-takeaway" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Final Takeaway
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#explanation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Explanation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Explanation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ssr-server-side-rendering-chef-cooks-in-the-kitchen" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧑‍🍳 SSR — Server-Side Rendering (Chef cooks in the kitchen)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#csr-client-side-rendering-diy-table-cooking" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧑‍🍳 CSR — Client-Side Rendering (DIY table cooking)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ssg-static-site-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      🥗 SSG (Static Site Generation)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isr-incremental-static-regeneration" class="md-nav__link">
+    <span class="md-ellipsis">
+      🍱 ISR (Incremental Static Regeneration)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2048,6 +2242,316 @@
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">props</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">data</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">};</span>
 </span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">}</span>
 </span></code></pre></div>
+<hr />
+<h2 id="quick-recap-rendering-methods">📦 Quick Recap: Rendering Methods</h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Who Builds the Page?</th>
+<th>When Is It Built?</th>
+<th>Where?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CSR</strong> (Client-Side Rendering)</td>
+<td>The <strong>browser (client)</strong></td>
+<td><strong>After</strong> user loads the page</td>
+<td>On the user's device</td>
+</tr>
+<tr>
+<td><strong>SSR</strong> (Server-Side Rendering)</td>
+<td>The <strong>server</strong></td>
+<td><strong>Every time</strong> a user requests the page</td>
+<td>On the server</td>
+</tr>
+<tr>
+<td><strong>SSG</strong> (Static Site Generation)</td>
+<td>The <strong>build tool</strong></td>
+<td><strong>At build time</strong> (before deployment)</td>
+<td>Ahead of time</td>
+</tr>
+<tr>
+<td><strong>ISR</strong> (Incremental Static Regeneration)</td>
+<td>The <strong>server (on demand)</strong></td>
+<td><strong>After build</strong>, but only <strong>sometimes</strong></td>
+<td>On the server</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="summary-table">🧭 Summary Table</h2>
+<table>
+<thead>
+<tr>
+<th>Rendering Type</th>
+<th>Who Builds It?</th>
+<th>When</th>
+<th>Use Case</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CSR</strong></td>
+<td>Browser (client)</td>
+<td>After load</td>
+<td>SPAs (like dashboards)</td>
+<td>A web-based email client like <strong>Gmail</strong>, admin dashboards</td>
+</tr>
+<tr>
+<td><strong>SSR</strong></td>
+<td>Server</td>
+<td>On every request</td>
+<td>Dynamic, SEO-friendly pages</td>
+<td>A news site like <strong>BBC</strong>, where content changes often</td>
+</tr>
+<tr>
+<td><strong>SSG</strong></td>
+<td>Build step</td>
+<td>At deploy time</td>
+<td>Blogs, marketing sites</td>
+<td>A personal blog or <strong>portfolio website</strong></td>
+</tr>
+<tr>
+<td><strong>ISR</strong></td>
+<td>Server (on request)</td>
+<td>After deploy, per page</td>
+<td>Product pages, hybrid sites</td>
+<td>An e-commerce site like <strong>Amazon</strong> product pages</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="what-about-nextjs">⚛️ What About Next.js?</h2>
+<p>Next.js supports <mark>all</mark> these rendering types:</p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Next.js Support?</th>
+<th>How to Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CSR</td>
+<td>✅ Yes</td>
+<td>Use dynamic imports or client components</td>
+</tr>
+<tr>
+<td>SSR</td>
+<td>✅ Yes</td>
+<td>Use <code>getServerSideProps()</code></td>
+</tr>
+<tr>
+<td>SSG</td>
+<td>✅ Yes</td>
+<td>Use <code>getStaticProps()</code> + <code>getStaticPaths()</code></td>
+</tr>
+<tr>
+<td>ISR</td>
+<td>✅ Yes</td>
+<td>Use <code>revalidate</code> option in <code>getStaticProps()</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="which-one-should-you-use">🧠 Which One Should You Use?</h2>
+<table>
+<thead>
+<tr>
+<th>Site Type</th>
+<th>Best Option</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blog / Docs</td>
+<td><strong>SSG</strong> or <strong>ISR</strong></td>
+</tr>
+<tr>
+<td>News / Stock / Weather</td>
+<td><strong>SSR</strong></td>
+</tr>
+<tr>
+<td>Dashboard / Internal Tool</td>
+<td><strong>CSR</strong></td>
+</tr>
+<tr>
+<td>E-commerce</td>
+<td><strong>ISR</strong> (for product pages), SSR (for checkout)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="final-takeaway">✅ Final Takeaway</h2>
+<p>Think of it like this:</p>
+<ul>
+<li>🔥 <strong>SSG</strong> = Build once, serve instantly</li>
+<li>🔄 <strong>ISR</strong> = Build once, update smartly</li>
+<li>📡 <strong>SSR</strong> = Build fresh every time</li>
+<li>🧠 <strong>CSR</strong> = Let the browser do the work</li>
+</ul>
+<hr />
+<h2 id="explanation">Explanation</h2>
+<p>Let me explain <strong>CSR (Client-Side Rendering)</strong> and <strong>SSR (Server-Side Rendering)</strong> in <mark>layman's terms</mark>, using a simple analogy.</p>
+<blockquote>
+<p>🏠 Imagine a Restaurant</p>
+</blockquote>
+<p>🍽 You go to a restaurant and order food.</p>
+<p>Now, there are <mark>two ways</mark> the restaurant can serve you:</p>
+<hr />
+<h3 id="ssr-server-side-rendering-chef-cooks-in-the-kitchen">🧑‍🍳 SSR — Server-Side Rendering (Chef cooks in the kitchen)</h3>
+<ul>
+<li>You order your food.</li>
+<li>The chef prepares the entire dish in the kitchen.</li>
+<li>When it’s ready, they bring you the full, hot meal.</li>
+<li>You just sit and eat — everything is done before it gets to your table.</li>
+</ul>
+<p>🟢 Pros:</p>
+<ul>
+<li>Fast first bite: You get a fully prepared meal quickly.</li>
+<li>Good for SEO (search engines can see the full dish).</li>
+</ul>
+<p>🔴 Cons:</p>
+<ul>
+<li>If you want something else (e.g., dessert), the waiter must go back, talk to the chef, cook, and bring it again.</li>
+</ul>
+<hr />
+<h3 id="csr-client-side-rendering-diy-table-cooking">🧑‍🍳 CSR — Client-Side Rendering (DIY table cooking)</h3>
+<ul>
+<li>You walk in, and the restaurant gives you raw ingredients and a hot plate.</li>
+<li>The chef doesn’t cook; you cook at your table.</li>
+<li>It takes a while to get started, but once your tools are ready, you can make more dishes without waiting.</li>
+</ul>
+<p>🟢 Pros:</p>
+<ul>
+<li>Smooth, fast experience after initial load.</li>
+<li>Great for dynamic apps (like dashboards or social media).</li>
+</ul>
+<p>🔴 Cons:</p>
+<ul>
+<li>Slow to start: You have to do the cooking.</li>
+<li>Not great for SEO — search engines might see an empty plate.</li>
+</ul>
+<hr />
+<blockquote>
+<p>🍔 Translating to Websites</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>What It Means</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SSR (Server-Side Rendering)</strong></td>
+<td>The server builds the full HTML page and sends it to the browser. It’s like the chef doing all the cooking and sending the full plate.</td>
+</tr>
+<tr>
+<td><strong>CSR (Client-Side Rendering)</strong></td>
+<td>The browser gets a mostly empty page + JavaScript, and builds everything on your device. You do the cooking.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<blockquote>
+<p>👀 Real-World Examples</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Website Type</th>
+<th>Usually Uses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>News sites, blogs, e-commerce (SEO matters)</strong></td>
+<td><strong>SSR</strong> or Static Rendering</td>
+</tr>
+<tr>
+<td><strong>Web apps like Gmail, Facebook, dashboards</strong></td>
+<td><strong>CSR</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<blockquote>
+<p>💡 Summary</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>CSR</th>
+<th>SSR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First load</td>
+<td>Slower</td>
+<td>Faster</td>
+</tr>
+<tr>
+<td>SEO friendly</td>
+<td>❌ No</td>
+<td>✅ Yes</td>
+</tr>
+<tr>
+<td>Dynamic content</td>
+<td>✅ Great</td>
+<td>⚠️ Needs refresh</td>
+</tr>
+<tr>
+<td>Server load</td>
+<td>Low</td>
+<td>High</td>
+</tr>
+<tr>
+<td>User experience</td>
+<td>Smooth after load</td>
+<td>Fast at first</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="ssg-static-site-generation">🥗 SSG (Static Site Generation)</h3>
+<blockquote>
+<p>"Pre-made meals in the fridge"</p>
+</blockquote>
+<ul>
+<li>The chef cooks <strong>all the meals in the morning</strong>, before any customers arrive.</li>
+<li>When a customer comes, you <strong>instantly serve</strong> the dish from the fridge.</li>
+<li>It’s fast and easy — no cooking, no waiting.</li>
+<li>But... if the menu changes, you must <strong>rebuild everything</strong>.</li>
+</ul>
+<p>.</p>
+<ul>
+<li>✅ Super fast for the user</li>
+<li>❌ Not ideal for content that changes often</li>
+</ul>
+<hr />
+<h3 id="isr-incremental-static-regeneration">🍱 ISR (Incremental Static Regeneration)</h3>
+<blockquote>
+<p>"Pre-made meals that get refreshed quietly"</p>
+</blockquote>
+<p>Meals are still pre-made, but if someone asks for an <strong>old dish</strong>, the restaurant will:</p>
+<ul>
+<li>Serve the old version instantly</li>
+<li>🔄 <strong>Silently refresh it in the background</strong>, so the <mark>next</mark> customer gets a fresh one</li>
+</ul>
+<p>.</p>
+<ul>
+<li>✅ Fast AND up-to-date</li>
+<li>✅ Great for blogs, products, etc.</li>
+<li>⚠️ Needs a framework that supports it (e.g., Next.js)</li>
+</ul>
 
 
 
@@ -2148,7 +2652,5 @@
       <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
-  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
-document$.subscribe(() => { lightbox.reload() });
-</script></body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>

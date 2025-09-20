@@ -14,7 +14,7 @@
       
       
       <link rel="icon" href="assets/logo/next-js.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
@@ -22,7 +22,7 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.2afb09e1.min.css">
       
         
         <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
@@ -52,15 +52,17 @@
     
     
    <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
-    html.glightbox-open { overflow: initial; height: 100%; }
-    .gslide-title { margin-top: 0px; user-select: text; }
-    .gslide-desc { color: #666; user-select: text; }
-    .gslide-image img { background: white; }
-    .gscrollbar-fixer { padding-right: 15px; }
-    .gdesc-inner { font-size: 0.75rem; }
-    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
-    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="assets/javascripts/glightbox.min.js"></script></head>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -681,7 +683,7 @@
   
   
   <span class="md-ellipsis">
-    Data Fetching
+    Data Fetching | Rendering Methods
     
   </span>
   
@@ -2001,7 +2003,7 @@
 <p><a href="https://www.amazon.com/Dynamic-Trio-Building-Applications-Tailwind-ebook/dp/B0C2FH7F99">Next.js</a> is an open-source web development framework built on top of React, which enables web applications with server-side rendering and generating static websites.</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>npx<span class="w"> </span>create-next-app@latest<span class="w"> </span>next-hello-world
 </span></code></pre></div>
-<p><a class="glightbox" href="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTRTiAv0RZTuOy5d4aeASacDx2bUJlmyx-ALZ068nWAx58x1H1b" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Dynamic Trio by By Grace Huang" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTRTiAv0RZTuOy5d4aeASacDx2bUJlmyx-ALZ068nWAx58x1H1b" /></a></p>
+<p><a class="glightbox" href="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTRTiAv0RZTuOy5d4aeASacDx2bUJlmyx-ALZ068nWAx58x1H1b" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Dynamic Trio by By Grace Huang" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTRTiAv0RZTuOy5d4aeASacDx2bUJlmyx-ALZ068nWAx58x1H1b" /></a></p>
 <hr />
 <h2 id="let-me-talk-about-history-of-nextjs1">Let me talk about: History of Next.js1</h2>
 <p>Next.js was released by <mark>Vercel</mark> (formerly known as Zeit) in 2016. The framework was developed to address issues with React, which was popular at the time <mark>but had problems with accessibility, security, slow page loading times, and SEO</mark>.</p>
@@ -2135,40 +2137,40 @@
 </ol>
 <hr />
 <h2 id="rendering-options-on-the-web"><a href="https://www.thetombomb.com/posts/rendering-options-on-the-web">Rendering Options on the Web</a></h2>
-<p><a class="glightbox" href="https://www.thetombomb.com/images/ForPosts/ssr.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="SSR" src="https://www.thetombomb.com/images/ForPosts/ssr.png" width="300" /></a>
-<a class="glightbox" href="https://www.thetombomb.com/images/ForPosts/csr.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="CSR" src="https://www.thetombomb.com/images/ForPosts/csr.png" width="300" /></a>
-<a class="glightbox" href="https://www.thetombomb.com/images/ForPosts/ssg.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="SSG" src="https://www.thetombomb.com/images/ForPosts/ssg.png" width="300" /></a>
-<a class="glightbox" href="https://www.thetombomb.com/images/ForPosts/renderingTable.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="SSR SSG CSR" src="https://www.thetombomb.com/images/ForPosts/renderingTable.png" width="300" /></a></p>
+<p><a class="glightbox" href="https://www.thetombomb.com/images/ForPosts/ssr.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="SSR" src="https://www.thetombomb.com/images/ForPosts/ssr.png" width="300" /></a>
+<a class="glightbox" href="https://www.thetombomb.com/images/ForPosts/csr.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="CSR" src="https://www.thetombomb.com/images/ForPosts/csr.png" width="300" /></a>
+<a class="glightbox" href="https://www.thetombomb.com/images/ForPosts/ssg.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="SSG" src="https://www.thetombomb.com/images/ForPosts/ssg.png" width="300" /></a>
+<a class="glightbox" href="https://www.thetombomb.com/images/ForPosts/renderingTable.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="SSR SSG CSR" src="https://www.thetombomb.com/images/ForPosts/renderingTable.png" width="300" /></a></p>
 <hr />
 <h2 id="courses"><a href="https://www.bilibili.com/video/BV1yn4y1o7mC?spm_id_from=333.788.videopod.episodes&amp;p=8">Courses 🔗</a></h2>
-<p><a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-20%2021-05-36.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-20%2021-05-36.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-20%2021-09-57.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-20%2021-09-57.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-20%2021-12-36.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-20%2021-12-36.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-20%2021-17-32.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-20%2021-17-32.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-20%2021-18-14.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-20%2021-18-14.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-21%2022-38-35.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-21%2022-38-35.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-21%2022-39-21.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-21%2022-39-21.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-21%2022-58-17.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-21%2022-58-17.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-21%2023-01-34.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-21%2023-01-34.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-21%2023-06-10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-21%2023-06-10.png" /></a></p>
-<p><a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2015-29-16.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2015-29-16.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2015-35-06.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2015-35-06.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2015-41-13.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2015-41-13.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2015-46-55.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2015-46-55.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2015-52-51.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2015-52-51.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2015-59-31.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2015-59-31.png" /></a></p>
-<p><a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2019-59-52.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2019-59-52.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-06-43.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-06-43.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-07-03.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-07-03.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-09-59.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-09-59.png" /></a></p>
-<p><a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-19-55.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-19-55.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-23-28.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-23-28.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-29-48.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-29-48.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-33-22.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-33-22.png" /></a></p>
+<p><a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-20%2021-05-36.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-20%2021-05-36.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-20%2021-09-57.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-20%2021-09-57.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-20%2021-12-36.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-20%2021-12-36.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-20%2021-17-32.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-20%2021-17-32.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-20%2021-18-14.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-20%2021-18-14.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-21%2022-38-35.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-21%2022-38-35.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-21%2022-39-21.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-21%2022-39-21.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-21%2022-58-17.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-21%2022-58-17.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-21%2023-01-34.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-21%2023-01-34.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-21%2023-06-10.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-21%2023-06-10.png" /></a></p>
+<p><a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2015-29-16.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2015-29-16.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2015-35-06.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2015-35-06.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2015-41-13.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2015-41-13.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2015-46-55.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2015-46-55.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2015-52-51.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2015-52-51.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2015-59-31.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2015-59-31.png" /></a></p>
+<p><a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2019-59-52.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2019-59-52.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-06-43.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-06-43.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-07-03.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-07-03.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-09-59.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-09-59.png" /></a></p>
+<p><a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-19-55.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-19-55.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-23-28.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-23-28.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-29-48.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-29-48.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-33-22.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-33-22.png" /></a></p>
 <p><strong>New Project</strong></p>
-<p><a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-42-24.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-42-24.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-44-23.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-44-23.png" /></a>
-<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-47-30.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-47-30.png" /></a></p>
+<p><a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-42-24.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-42-24.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-44-23.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-44-23.png" /></a>
+<a class="glightbox" href="assets/udemy/Screenshot%20from%202025-03-23%2020-47-30.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Courses" src="assets/udemy/Screenshot%20from%202025-03-23%2020-47-30.png" /></a></p>
 <p><strong>Project Organization</strong></p>
 <p>To make the folder private, which not expose to the router. we have components folder underscore <code>_components</code> which is nextjs convention.</p>
 <ul>
@@ -2258,7 +2260,5 @@
       <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
-  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
-document$.subscribe(() => { lightbox.reload() });
-</script></body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
